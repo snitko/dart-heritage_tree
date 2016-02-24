@@ -1,0 +1,11 @@
+name: heritage_tree
+version: 0.1.0
+description: >
+  An implementation of heritance tree where objects CONTAIN other objects
+  as children and are themselves children of their parent. The target usecase
+  is representation of components for a webpage.
+
+author: Roman Snitko <roman.snitko@gmail.com>
+
+dev_dependencies:
+  test: '>=0.12.0'
