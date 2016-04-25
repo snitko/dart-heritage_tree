@@ -15,8 +15,11 @@ abstract class HeritageTree {
     return this.children.firstWhere((c) => c.id == child_id, orElse: () => null);
   }
 
-  removeChild(String child_id) {
-    this.children.removeWhere((c) => c.id == child_id);
+  removeChild(child) {
+    if(child is String) // it's an ID
+      this.children.removeWhere((c) => c.id == child);
+    else // it's an actual object!
+      this.children.remove(child);
   }
 
   findDescendantsById(String descendant_id) {
