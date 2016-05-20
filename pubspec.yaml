@@ -6,6 +6,7 @@ description: >
   is representation of components for a webpage.
 
 author: Roman Snitko <roman.snitko@gmail.com>
+homepage: https://github.com/snitko/dart-heritage_tree
 
 dev_dependencies:
   test: '>=0.12.0'
